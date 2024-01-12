@@ -11,13 +11,14 @@
 
       
     />
-  </div>
 
+  </div>
+  <WelcomeView/>
   </template>
 
 
 <script setup lang="ts">
-  
+  import WelcomeView from "../components/WelcomeView.vue";
   import { ref } from "vue";
   import { MDBCarousel } from "mdb-vue-ui-kit";
 
