@@ -19,22 +19,29 @@
   import { ref } from "vue";
   import { MDBCarousel } from "mdb-vue-ui-kit";
 
-
+  let responsive = screen.width;
+  let image;
+  if (responsive > 750)
+  {
+    image = true;
+  } else{
+    image = false;
+  }
+  
   const items5 = [
     {
-      src: "src/assets/images/sa_1 - Photo.jpg",
+      src: image ? "src/assets/images/sav_1 - Photo.jpg": "src/assets/images/sa_1 - Photo.jpg",
       alt: "...",
       label: "First slide label",
       caption: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-      }
+      },
     {
-      src: "src/assets/images/sa_2 - Photo.jpg",
-      alt: "...",
+      src: image ? "src/assets/images/sav_2 - Photo.jpg": "src/assets/images/sa_2 - Photo.jpg",
       label: "Second slide label",
       caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-      src: "src/assets/images/sa_3 - Photo.jpg",
+      src: image ? "src/assets/images/sav_4 - Photo.jpg": "src/assets/images/sa_3 - Photo.jpg",
       alt: "...",
       label: "Third slide label",
       caption:
@@ -42,14 +49,7 @@
         captionClass: "red"
     }
   ];
-  const items6 = [
-    {
-      src: "src/assets/images/sa_4 - Photo.jpg",
-      alt: "...",
-      label: "First slide label",
-      caption: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-    },
-  ];
+
   const carousel5 = ref(0);
 </script>
 <style>
