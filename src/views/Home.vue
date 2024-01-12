@@ -4,8 +4,9 @@
     <MDBCarousel
       v-model="carousel5"
       :items="items5"
-      inner-class="w-100 d-flex justify-content-start"
+      inner-class="w-100 d-flex justify-content-start h-100"
       captionsClass="carousel-caption h-50 "
+      items-class="h-100"
 
       
       
@@ -50,7 +51,8 @@
 <style>
 
   .items5 {
-    
+    padding-top: 75px;
+    height: 700px;
   }
-
+  
 </style>
