@@ -12,12 +12,15 @@
       
     />
   </div>
+
   </template>
 
 
 <script setup lang="ts">
+  
   import { ref } from "vue";
   import { MDBCarousel } from "mdb-vue-ui-kit";
+
 
 
   const items5 = [
@@ -26,7 +29,7 @@
       alt: "...",
       label: "First slide label",
       caption: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-      }
+      },
     {
       src: "src/assets/images/sa_2 - Photo.jpg",
       alt: "...",
