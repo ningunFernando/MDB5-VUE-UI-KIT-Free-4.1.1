@@ -1,5 +1,5 @@
 
-  <template>
+<template>
     <div class="items5">
     <MDBCarousel
 
@@ -13,6 +13,7 @@
     />
   </div>
   </template>
+
 
 <script setup lang="ts">
   import { ref } from "vue";
@@ -51,7 +52,11 @@
 
   const carousel5 = ref(0);
 </script>
+<style>
 
-<style scoped>
+  .items5 {
+    
 
+  }
+  
 </style>
