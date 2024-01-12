@@ -1,27 +1,30 @@
 <template>
-    <MDBNavbar expand="lg" light bg="light" container>
-      <MDBNavbarBrand href="#">Brand</MDBNavbarBrand>
+    <MDBNavbar expand="lg" light style="background-color: #60713a" container>
+      <!-- Toggle button -->
       <MDBNavbarToggler
-        @click="collapse1 = !collapse1"
-        target="#navbarSupportedContent"
+        target="#navbarRightAlignExample"
+        @click="collapse5 = !collapse5"
       ></MDBNavbarToggler>
-      <MDBCollapse v-model="collapse1" id="navbarSupportedContent">
-        <MDBNavbarNav class="mb-2 mb-lg-0">
-          <MDBNavbarItem to="#" active>
+      <MDBNavbarBrand href="#" class="logo f  pb-lg-2 pt-lg-2" >San Angel</MDBNavbarBrand>
+      <!-- Collapsible wrapper -->
+      <MDBCollapse v-model="collapse5" id="navbarRightAlignExample">
+        <MDBNavbarNav right class=" pb-lg-2 pt-lg-2 text-white">
+          <!-- Right links -->
+          <MDBNavbarItem class="nav-items" to="#">
             Home
           </MDBNavbarItem>
-          <MDBNavbarItem href="#">
+          <MDBNavbarItem class="nav-items" href="#">
             Link
           </MDBNavbarItem>
+          <!-- Right links -->
         </MDBNavbarNav>
-        <!-- Search form -->
       </MDBCollapse>
+      <!-- Collapsible wrapper -->
     </MDBNavbar>
   </template>
 
   <script setup lang="ts">
   import {
-    MDBBtn,
     MDBNavbar,
     MDBNavbarToggler,
     MDBNavbarBrand,
@@ -35,10 +38,22 @@
   } from 'mdb-vue-ui-kit';
   import { ref } from 'vue';
 
-  const collapse1 = ref(false);
-  const dropdown1 = ref(false);
+  const collapse5 = ref(false);
+  const dropdown8 = ref(false);
 </script>
 
 <style scoped>
+.logo{
+    font-family: Nova Mono;
+    color: #FAFBED;
+    font-size: 2rem;
+    margin-left: 30px;
+}
+
+.nav-items{
+    font-family: Nova Mono;
+    font-size: 1.3rem;
+    margin-right: 20px;
+}
 
 </style>
