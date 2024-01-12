@@ -1,5 +1,5 @@
 <template>
-    <MDBNavbar expand="lg" light style="background-color: #60713a" container>
+    <MDBNavbar expand="lg" light style="background-color: #60713a " position="top" container>
       <!-- Toggle button -->
       <MDBNavbarToggler
         target="#navbarRightAlignExample" class="text-white"

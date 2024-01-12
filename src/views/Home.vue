@@ -4,11 +4,11 @@
     <MDBCarousel
       v-model="carousel5"
       :items="items5"
-      inner-class=" w-100 "
-      captionsClass="carousel-caption w-100"
-      items-class="w-100 "
+      inner-class="w-100 d-flex justify-content-start"
+      captionsClass="carousel-caption h-50 "
+
       
-      dark
+      
     />
   </div>
   </template>
@@ -21,21 +21,22 @@
   const items5 = [
     {
    
-      src: "src/assets/fachada dia con logo.jpg",
+      src: "src/assets/images/sa_1 - Photo.jpg",
       alt: "...",
       label: "First slide label",
       caption: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+
      
      
     },
     {
-      src: "src/assets/TERRAZA ASADOR. LOGO.jpg",
+      src: "src/assets/images/sa_2 - Photo.jpg",
       alt: "...",
       label: "Second slide label",
       caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-      src: "src/assets/VISTA MURO INTERIOR.jpg",
+      src: "src/assets/images/sa_3 - Photo.jpg",
       alt: "...",
       label: "Third slide label",
       caption:
@@ -47,10 +48,9 @@
   const carousel5 = ref(0);
 </script>
 <style>
-  .items5{
-    width: 100%;
-    height: 85dvh;
-  
+
+  .items5 {
+    
   }
 
 </style>
