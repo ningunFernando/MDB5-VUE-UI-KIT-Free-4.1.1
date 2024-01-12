@@ -2,13 +2,13 @@
   <template>
     <div class="items5">
     <MDBCarousel
+
       v-model="carousel5"
       :items="items5"
-      inner-class="w-100 d-flex justify-content-start h-100"
+      inner-class="w-100 d-flex justify-content-start "
       captionsClass="carousel-caption h-50 "
       items-class="h-100"
 
-      
       
     />
   </div>
@@ -19,17 +19,14 @@
   import { ref } from "vue";
   import { MDBCarousel } from "mdb-vue-ui-kit";
 
+
   const items5 = [
     {
-   
       src: "src/assets/images/sa_1 - Photo.jpg",
       alt: "...",
       label: "First slide label",
       caption: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-
-     
-     
-    },
+      }
     {
       src: "src/assets/images/sa_2 - Photo.jpg",
       alt: "...",
@@ -45,14 +42,21 @@
         captionClass: "red"
     }
   ];
-
+  const items6 = [
+    {
+      src: "src/assets/images/sa_4 - Photo.jpg",
+      alt: "...",
+      label: "First slide label",
+      caption: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+    },
+  ];
   const carousel5 = ref(0);
 </script>
 <style>
 
   .items5 {
-    padding-top: 75px;
-    height: 700px;
+    
+
   }
   
 </style>
