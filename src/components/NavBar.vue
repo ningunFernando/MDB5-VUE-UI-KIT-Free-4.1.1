@@ -2,7 +2,7 @@
     <MDBNavbar expand="lg" light style="background-color: #60713a" container>
       <!-- Toggle button -->
       <MDBNavbarToggler
-        target="#navbarRightAlignExample"
+        target="#navbarRightAlignExample" class="text-white"
         @click="collapse5 = !collapse5"
       ></MDBNavbarToggler>
       <MDBNavbarBrand href="#" class="logo f  pb-lg-2 pt-lg-2" >San Angel</MDBNavbarBrand>
@@ -11,10 +11,10 @@
         <MDBNavbarNav right class=" pb-lg-2 pt-lg-2 text-white">
           <!-- Right links -->
           <MDBNavbarItem class="nav-items" to="#">
-            Home
+           <div class="text-white"> Home</div>
           </MDBNavbarItem>
           <MDBNavbarItem class="nav-items" href="#">
-            Link
+            <div class="text-white"  >Link</div>
           </MDBNavbarItem>
           <!-- Right links -->
         </MDBNavbarNav>
