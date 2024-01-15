@@ -10,6 +10,7 @@
     "start": "vite --open"
   },
   "dependencies": {
+    "@splidejs/vue-splide": "^0.6.12",
     "mdb-vue-ui-kit": "4.1.1",
     "reflect-metadata": "^0.2.1",
     "vue": "^3.2.40",
