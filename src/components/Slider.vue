@@ -1,17 +1,28 @@
 <template>
     <div class="items5">
-      <Splide :options="{ rewind: true }" aria-label="Images">
+      <Splide :options="{ rewind: true,rewindSpeed: 1000, rewindByDrag: true  }" aria-label="Images">
         <SplideSlide>
+          <div class="box">
           <img v-if="isWideScreen" src="../assets/sa_1.jpg" alt="Wide Screen Sample 1">
           <img v-else src="../assets/sav_1.jpg" alt="Narrow Screen Sample 1">
+        </div>
+        <div class="text">Este es un texto muestra</div>
         </SplideSlide>
         <SplideSlide>
-          <img v-if="isWideScreen" src="../assets/sa_2.jpg" alt="Wide Screen Sample 1">
-          <img v-else src="../assets/sav_2.jpg" alt="Narrow Screen Sample 1">
+          <div class="box">
+            <img v-if="isWideScreen" src="../assets/sa_2.jpg" alt="Wide Screen Sample 1">
+            <img v-else src="../assets/sav_2.jpg" alt="Narrow Screen Sample 1">
+           
+          </div>
+          <div class="text">Este es un texto muestra</div>
         </SplideSlide>
         <SplideSlide>
-          <img v-if="isWideScreen" src="../assets/sa_4.jpg" alt="Wide Screen Sample 1">
-          <img v-else src="../assets/sav_4.jpg" alt="Narrow Screen Sample 1">
+          <div class="box">
+            <img v-if="isWideScreen" src="../assets/sa_4.jpg" alt="Wide Screen Sample 1">
+            <img v-else src="../assets/sav_4.jpg" alt="Narrow Screen Sample 1">
+            
+          </div>
+          <div class="text">Este es un texto muestra</div>
         </SplideSlide>
       </Splide>
    
@@ -50,5 +61,25 @@ onBeforeUnmount(() => {
   height: auto;
   object-fit:cover;
 }
+.box{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  filter:brightness(0.5);
+}
+
+
+.text{
+  position: absolute;
+  font-size: 10vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ color: rgb(255, 255, 255);
+
+  text-align: center;
+  filter:brightness(1);
+}
+
 
 </style>
