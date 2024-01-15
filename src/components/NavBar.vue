@@ -1,11 +1,13 @@
 <template>
-    <MDBNavbar expand="lg" light style="background-color: #60713a" container>
+    <MDBNavbar expand="lg" light style="background-color: #60713a" position="fixed" container>
       <!-- Toggle button -->
-      <MDBNavbarToggler
-        target="#navbarRightAlignExample" class="text-white"
-        @click="collapse5 = !collapse5"
-      ></MDBNavbarToggler>
-      <MDBNavbarBrand href="#" class="logo f  pb-lg-2 pt-lg-2" >San Angel</MDBNavbarBrand>
+      <div class="mobile-nav-container">
+        <MDBNavbarToggler
+          target="#navbarRightAlignExample" class="text-white"
+          @click="collapse5 = !collapse5"
+        ></MDBNavbarToggler>
+        <MDBNavbarBrand href="#" class="logo f  pb-lg-2 pt-lg-2" >San Angel</MDBNavbarBrand>
+      </div>
       <!-- Collapsible wrapper -->
       <MDBCollapse v-model="collapse5" id="navbarRightAlignExample">
         <MDBNavbarNav right class=" pb-lg-2 pt-lg-2 text-white">
@@ -54,6 +56,12 @@
     font-family: Nova Mono;
     font-size: 1.3rem;
     margin-right: 20px;
+}
+
+.mobile-nav-container{
+display: flex;
+flex-direction: row-reverse;
+gap: 5rem;
 }
 
 </style>

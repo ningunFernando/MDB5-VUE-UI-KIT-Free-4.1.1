@@ -2,7 +2,7 @@
     <MDBFooter :text="['center', 'lg-start']">
       <!-- Copyright -->
       <div class="text-center p-3 d-flex flex-lg-row justify-content-center" style="background-color: #60713a">
-         <div class="text-white">© 2020 Copyright:</div> 
+         <div class="text-white">© 2024 Copyright:</div> 
         <a class="text-white" href="https://www.kuchenconstrucciones.com/">Kuchen Construcciones</a>
       </div>
       <!-- Copyright -->
