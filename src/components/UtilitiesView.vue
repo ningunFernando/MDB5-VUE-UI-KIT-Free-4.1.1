@@ -4,8 +4,8 @@
         <div class="map">
             <div class="map-content">
                 <div class="content-width"> 
-                    <h2>Conoce nuestra ubicacion</h2>
-                    <p>Cerca de todo lo necesario para una vida plena, a metros de la carretera 200 y de los desarrollos turísticos más importantes del país.</p>
+                    <h2>{{title}}</h2>
+                    <p>{{description}}</p>
                 </div>
             </div>
             <div class="map-iframe">
@@ -56,7 +56,7 @@
 </template>
 
 <script setup lang="ts">
-
+defineProps<{ title: string, description: string}>();
 </script>
 
 <style scoped>
