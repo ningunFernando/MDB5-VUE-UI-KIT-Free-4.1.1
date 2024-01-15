@@ -14,12 +14,7 @@
                             <img class="w-50" src="../assets/sa_2.jpg" alt="">
                             <div class="d-flex flex-column justify-content-center align-items-center">
                                 <ul>
-                                    <li>aaaaaaa</li>
-                                    <li>aaaaaaa</li>
-                                    <li>aaaaaaa</li>
-                                    <li>aaaaaaa</li>
-                                    <li>aaaaaaa</li>
-                                    <li>aaaaaaa</li>
+
                                 </ul>
                             </div>
                         </div>
@@ -42,6 +37,8 @@
   import { ref } from 'vue';
 
   const activeTabId3 = ref('ex3-1');
+
+  const props = defineProps(['img'])
 </script>
 
 <style scoped>

@@ -21,7 +21,7 @@
             <img v-if="isWideScreen" :src="img3" alt="Wide Screen Sample 1">
             <img v-else :src="imgv3" alt="Narrow Screen Sample 1">
             
-          </div>
+          </div>  
           <div class="text">{{texto3}}</div>
         </SplideSlide>
       </Splide>

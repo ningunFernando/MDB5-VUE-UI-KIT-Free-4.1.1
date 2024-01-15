@@ -5,8 +5,25 @@
   Frametextcolor="text-white"
   color="#60713a"
   />
-  <Slider/>
-  <WelcomeView/>
+  <Slider
+  img1="https://silly-sopapillas-764d9e.netlify.app/assets/sa_1.6469af53.jpg"
+  img2="https://silly-sopapillas-764d9e.netlify.app/assets/sa_1.6469af53.jpg"
+  img3="https://silly-sopapillas-764d9e.netlify.app/assets/sa_1.6469af53.jpg"
+  imgv1="https://silly-sopapillas-764d9e.netlify.app/assets/sav_2.dbe27187.jpg"
+  imgv2="https://silly-sopapillas-764d9e.netlify.app/assets/sav_2.dbe27187.jpg"
+  imgv3="https://silly-sopapillas-764d9e.netlify.app/assets/sav_2.dbe27187.jpg"
+  texto1="hola1"
+  texto2="hola2"
+  texto3="hola3"
+  />
+  <WelcomeView
+  title="Bienvenido"
+  description="Bienvenido a San Ángel, donde vivir en una comunidad exclusiva es una realidad. Garantizamos tu inversión con propiedades de lujo en un entorno excepcional. En San Ángel, no solo encuentras una casa, encuentras un estilo de vida incomparable."
+  iframe="https://kuula.co/share/collection/7Xwz8?logo=-1&info=0&fs=1&vr=0&gyro=0&thumbs=1&alpha=0.60&inst=es"
+  link="https://kuula.co/share/51BJq/collection/7Xwz8?logo=-1&info=0&fs=1&vr=0&gyro=0&thumbs=1&alpha=0.60&inst=es"
+  bg_color="#faf3eb"
+  btn_color="#60713a"
+  />
   <UtilitiesView
     color="#60713a"
     title="Conoce nuestra ubicacion"
@@ -23,7 +40,9 @@
     icon_info4="hola"
   />
   <ModelsTab/>
-  <FooterView/>
+  <FooterView
+  bg_color="#60713a"
+  />
 </template>
 
 <script setup lang="ts">
