@@ -37,7 +37,7 @@ onBeforeUnmount(() => {
   window.removeEventListener('resize', handleResize);
 });
   
- 
+ const props = defineProps(['img1', 'img2', 'img3'])
 </script>
 <style scoped>
 

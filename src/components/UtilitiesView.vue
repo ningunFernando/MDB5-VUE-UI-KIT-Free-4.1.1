@@ -9,54 +9,56 @@
                 </div>
             </div>
             <div class="map-iframe">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d932.860671597177!2d-105.28768082469017!3d20.732843895715636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842146e1b2098eb9%3A0x2d550fa0c1bcee86!2sAgave%20Azul%20%26%20Callej%C3%B3n%20A%20la%20Laguna%2C%20Ni%C3%B1os%20H%C3%A9roes%2C%2063735%20Mezcales%2C%20Nay.!5e0!3m2!1ses-419!2smx!4v1705111491455!5m2!1ses-419!2smx" width="760" height="500" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe :src="iframe" width="760" height="500" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
 
-        <div class="apartment-container">
+        <div class="apartment-container" style="background-color: #60713a;">
             <div class="apartment-photo">
-                <img class="" src="../assets/sa_2.jpg" alt="">
+                <img class="" :src="apartment_photo" alt="">
             </div>
             <div class="apartment-info">
                 <div class="info-icons-container">
                     <div class="info-container-card">
-                        <i class="fas fa-home"></i>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <i :class="icon"></i>
+                        <p>{{icon_info}}</p>
                     </div>
                     <div class="info-container-card">
-                        <i class="fas fa-home"></i>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <i :class="icon2"></i>
+                        <p>{{icon_info2}}</p>
                     </div>
                 </div>
                 <div class="info-icons-container">
                     <div class="info-container-card">
-                        <i class="fas fa-home"></i>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <i :class="icon3"></i>
+                        <p>{{icon_info3}}</p>
                     </div>
                     <div class="info-container-card">
-                        <i class="fas fa-home"></i>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <i :class="icon4"></i>
+                        <p>{{icon_info4}}</p>
                     </div>
                 </div>
                 <div class="info-icons-container">
                     <div class="info-container-card">
-                        <i class="fas fa-home"></i>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <i :class="icon3"></i>
+                        <p>{{icon_info3}}</p>
                     </div>
                     <div class="info-container-card">
-                        <i class="fas fa-home"></i>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <i :class="icon4"></i>
+                        <p>{{icon_info4}}</p>
                     </div>
-                </div>
-
+                </div>  
             </div>
+
         </div>
 
     </div>
 </template>
 
 <script setup lang="ts">
-defineProps<{ title: string, description: string}>();
+
+const props = defineProps(['title', 'description', 'iframe', 'apartment_photo','icon','icon_info','icon2','icon_info2','icon3','icon_info3','icon4','icon_info4', 'color'])
+
 </script>
 
 <style scoped>
@@ -72,7 +74,7 @@ defineProps<{ title: string, description: string}>();
 }
 
 .map-content{
-    background-color: #60713a;
+    background-color: v-bind(color);
     color:beige;
     display: flex;
     flex-direction: column;
@@ -94,16 +96,16 @@ defineProps<{ title: string, description: string}>();
 .apartment-container{
     display: flex;
     flex-direction: row;
-    
+
 }
 
 .apartment-photo img{
-    width: 49.5dvw;
+    width: 48.9dvw;
     height: 30dvw;
 }
 .apartment-info{
-    background-color: #60713a;
     width: 50dvw;
+    background-color: v-bind(color);
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,9 +1,9 @@
 <template>
-    <MDBNavbar expand="lg" light style="background-color: #60713a" position="fixed" container>
+    <MDBNavbar expand="lg" light class-navbar="navbar" position="fixed" container>
       <!-- Toggle button -->
       <div class="mobile-nav-container">
         <MDBNavbarToggler
-          target="#navbarRightAlignExample" class="text-white"
+          target="#navbarRightAlignExample" :class="Frametextcolor"
           @click="collapse5 = !collapse5"
         ></MDBNavbarToggler>
         <MDBNavbarBrand href="#" class="logo f  pb-lg-2 pt-lg-2" >San Angel</MDBNavbarBrand>
@@ -42,18 +42,21 @@
 
   const collapse5 = ref(false);
   const dropdown8 = ref(false);
+
+
+  const props = defineProps(['font_family', 'font_size','color', 'Frametextcolor', 'text_color'])
 </script>
 
 <style scoped>
 .logo{
-    font-family: Nova Mono;
-    color: #FAFBED;
+    font-family: v-bind(font_family);
+    color: v-bind(text_color);
     font-size: 2rem;
     margin-left: 30px;
 }
 
 .nav-items{
-    font-family: Nova Mono;
+    font-family: v-bind(font_family);
     font-size: 1.3rem;
     margin-right: 20px;
 }
@@ -63,5 +66,7 @@ display: flex;
 flex-direction: row-reverse;
 gap: 5rem;
 }
-
+.navbar{
+  background-color: v-bind(color);
+}
 </style>

@@ -4,10 +4,7 @@
 </script>
 
 <template>
-  <NavBar
-  color="6354A1"/>
   <router-view />
-  <FooterView />
 </template>
 
 <style scoped>
