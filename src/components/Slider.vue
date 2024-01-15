@@ -3,26 +3,26 @@
       <Splide :options="{ rewind: true,rewindSpeed: 1000, rewindByDrag: true  }" aria-label="Images">
         <SplideSlide>
           <div class="box">
-          <img v-if="isWideScreen" src="../assets/sa_1.jpg" alt="Wide Screen Sample 1">
-          <img v-else src="../assets/sav_1.jpg" alt="Narrow Screen Sample 1">
+          <img v-if="isWideScreen" :src="img1" alt="Wide Screen Sample 1">
+          <img v-else :src="imgv1" alt="Narrow Screen Sample 1">
         </div>
-        <div class="text">Este es un texto muestra</div>
+        <div class="text">{{texto1}}</div>
         </SplideSlide>
         <SplideSlide>
           <div class="box">
-            <img v-if="isWideScreen" src="../assets/sa_2.jpg" alt="Wide Screen Sample 1">
-            <img v-else src="../assets/sav_2.jpg" alt="Narrow Screen Sample 1">
+            <img v-if="isWideScreen" :src="img2" alt="Wide Screen Sample 1">
+            <img v-else :src="imgv2" alt="Narrow Screen Sample 1">
            
           </div>
-          <div class="text">Este es un texto muestra</div>
+          <div class="text">{{texto2}}</div>
         </SplideSlide>
         <SplideSlide>
           <div class="box">
-            <img v-if="isWideScreen" src="../assets/sa_4.jpg" alt="Wide Screen Sample 1">
-            <img v-else src="../assets/sav_4.jpg" alt="Narrow Screen Sample 1">
+            <img v-if="isWideScreen" :src="img3" alt="Wide Screen Sample 1">
+            <img v-else :src="imgv3" alt="Narrow Screen Sample 1">
             
           </div>
-          <div class="text">Este es un texto muestra</div>
+          <div class="text">{{texto3}}</div>
         </SplideSlide>
       </Splide>
    
@@ -48,7 +48,7 @@ onBeforeUnmount(() => {
   window.removeEventListener('resize', handleResize);
 });
   
- const props = defineProps(['img1', 'img2', 'img3'])
+ const props = defineProps(['img1', 'img2', 'img3','imgv1', 'imgv2', 'imgv3','texto1', 'texto2', 'texto3'])
 </script>
 <style scoped>
 
