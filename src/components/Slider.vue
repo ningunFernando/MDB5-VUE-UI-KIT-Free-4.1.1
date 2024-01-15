@@ -57,8 +57,8 @@ onBeforeUnmount(() => {
 }  
 .items5 img{
  
-  width: 100%;
-  height: auto;
+  width: 100dvw;
+  height: 100dvh;
   object-fit:cover;
 }
 .box{
