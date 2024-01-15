@@ -7,5 +7,6 @@ export default defineConfig({
   css: {
     devSourcemap: true,
   },
+  
   plugins: [vue()],
 });

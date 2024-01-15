@@ -4,5 +4,11 @@ import { createApp } from "vue";
 import "./style.css";
 import App from "./App.vue";
 import router from "./router";
+import VueSplide from '@splidejs/vue-splide';
+import '@splidejs/vue-splide/css';
 
-createApp(App).use(router).mount("#app");
+const app = createApp( App );
+app.use( VueSplide );
+app.use(router)
+app.mount( '#app' );
+
