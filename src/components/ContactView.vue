@@ -1,7 +1,7 @@
 <template>
     <div class="w-100  containerTab">
         <div class="containerTab w-75 ">
-            <h2>Contactanos</h2>
+            <h2 style="font-family: Montserrat;">Contactenos</h2>
             <form action="https://formsubmit.co/your@email.com" method="POST">
                 <input type="text" name="name" required placeholder="Ingrese su nombre">
                 <input type="email" name="email" required placeholder="Ingrese su correo">
@@ -39,7 +39,7 @@ form input{
 }
 form button{
     background-color: v-bind(buttonColor);
-    color: #FAFBED;
+    color: #000000;
 }
 form button:hover{
     background-color: v-bind(buttonHover);
