@@ -39,10 +39,13 @@
       icon4="fa fa-camera"
       icon_info4="hola"
     />
-    <ModelsTab/>
-    <FooterView
-    bg_color="#60713a"
+    <ModelsTab
+    title="Descucre nuestro modelo"
+    model_name="San Angel"
+    background="#faf3eb"
     />
+    <ContactView
+    background="#faf3eb"/>
   </template>
   
   <script setup lang="ts">
@@ -51,8 +54,7 @@
     import UtilitiesView from '../components/UtilitiesView.vue';
     import ModelsTab from '../components/ModelsTab.vue';
     import NavBar from '../components/NavBar.vue';
-    import FooterView from '../components/FooterView.vue';
-    
+    import ContactView from '../components/ContactView.vue';
   </script>
   
   <style scoped>
