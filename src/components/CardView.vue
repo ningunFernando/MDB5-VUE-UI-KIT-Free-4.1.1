@@ -12,13 +12,14 @@
           <MDBCardText>
             {{data.text}}
           </MDBCardText>
-          <MDBBtn tag="a" :href="data.link" color="primary">Button</MDBBtn>
+          <RouterLink :to="data.link">hola</RouterLink>
         </MDBCardBody>
       </MDBCard>
     </div>
 </template>
 
 <script setup lang="ts">
+  import { RouterLink } from "vue-router";
     import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImg, MDBBtn } from "mdb-vue-ui-kit";
 
     defineProps({

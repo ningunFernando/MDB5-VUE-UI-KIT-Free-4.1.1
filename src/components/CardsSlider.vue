@@ -28,12 +28,13 @@
 
 <script setup lang="ts">
 import CardView from './CardView.vue';
-    const info =[
+
+const info =[
         {
             img:"https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg",
-            title:"Portavela",
+            title:"Vilanova",
             text:"texto de prueba",
-            link:"a"
+            link:"/vilanova"
         },
         {
             img:"https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg",
