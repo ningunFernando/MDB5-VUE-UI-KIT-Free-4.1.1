@@ -1,12 +1,9 @@
 <template>
-    <div class="d-flex justify-content-center">
-    <MDBCard class="mdbCard" style="padding: 10px;">
+    <MDBCard>
         <MDBCardImg
-          src="https://prismatic-blini-62ad83.netlify.app/vilanova-2.jpeg"
+          src="https://mdbootstrap.com/img/new/standard/nature/184.webp"
           top
           alt="..."
-            style="height: 32dvh; width: 29dvw"
-            
         />
         <MDBCardBody>
           <MDBCardTitle>Card title</MDBCardTitle>
@@ -17,15 +14,8 @@
           <MDBBtn tag="a" href="#!" color="primary">Button</MDBBtn>
         </MDBCardBody>
       </MDBCard>
-    </div>
 </template>
 
-<script setup lang="ts">
-    import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImg, MDBBtn } from "mdb-vue-ui-kit";
+<script>
 
 </script>
-<style scoped>
-    .mdbCard{
-        width: 30dvw;
-    }
-</style>

@@ -5,7 +5,7 @@
                 <h2 class="font">{{title}}</h2>
                 <p class="fs-6 font">{{text}}</p>
             </div>
-            <div class="d-flex flex-row">
+            <div class=" cards-holder">
                 <div class="d-flex flex-column justify-content-center align-items-center card-body"  >
                     <i class="p-3 fs-1" :class="icon"></i>
                     <h3 class="font">{{card_title}}</h3>
@@ -64,5 +64,25 @@
 
     margin: auto;
     width: 80dvw;
+}
+.cards-holder{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:600px){
+    .cards-holder{
+        flex-direction: column;
+    }
+    .card-body{
+        margin: 1rem 0;
+        width: 80dvw;
+    }
+    
+    .card-body p{
+        width: 60dvw;
+    }
+    .cards-wrapper{
+        padding: rem 0;
+    }
 }
 </style>
