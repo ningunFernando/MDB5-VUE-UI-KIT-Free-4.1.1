@@ -16,7 +16,6 @@
       </MDBCard>
 </template>
 
-<scrpit setup lang="ts">
+<script>
 
-
-</scrpit>
+</script>
