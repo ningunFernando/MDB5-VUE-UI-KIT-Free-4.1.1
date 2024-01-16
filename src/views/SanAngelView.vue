@@ -6,6 +6,7 @@
     color="#60713a"
     position="top"
     />
+
     <Slider
     img1="https://silly-sopapillas-764d9e.netlify.app/assets/sa_1.6469af53.jpg"
     img2="https://silly-sopapillas-764d9e.netlify.app/assets/sa_1.6469af53.jpg"
@@ -17,6 +18,7 @@
     texto2="hola2"
     texto3="hola3"
     />
+
     <WelcomeView
     title="Bienvenido"
     description="Bienvenido a San Ángel, donde vivir en una comunidad exclusiva es una realidad. Garantizamos tu inversión con propiedades de lujo en un entorno excepcional. En San Ángel, no solo encuentras una casa, encuentras un estilo de vida incomparable."
@@ -25,6 +27,7 @@
     bg_color="#faf3eb"
     btn_color="#60713a"
     />
+
     <UtilitiesView
       color="#60713a"
       title="Conoce nuestra ubicacion"
@@ -40,17 +43,15 @@
       icon4="fa fa-camera"
       icon_info4="hola"
     />
+
     <ModelsTab
     title="Descucre nuestro modelo"
     model_name="San Angel"
     background="#faf3eb"
-    /> 
-    <ContactView
-    background="#faf3eb"
-    buttonColor="#60713a"
-    buttonHover="#4a582c"
     />
-
+    
+    <ContactView
+    background="#faf3eb"/>
   </template>
   
   <script setup lang="ts">
