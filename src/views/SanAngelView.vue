@@ -49,12 +49,11 @@
     model_name="San Angel"
     background="#faf3eb"
     />
-    
+
     <ContactView
     background="#faf3eb"
     buttonColor="#60713A"
     buttonHover="#4c5a2e"
-
     />
   </template>
   
