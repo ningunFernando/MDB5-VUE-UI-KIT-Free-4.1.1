@@ -14,7 +14,8 @@
             Some quick example text to build on the card title and make up the bulk of the
             card's content.
           </MDBCardText>
-          <MDBBtn tag="a" href="#!" color="primary">Button</MDBBtn>
+          <MDBBtn tag="a" href="#!" color="primary" to="/vilanova">Button</MDBBtn>
+          <RouterLink to="/vilanova">hola</RouterLink>
         </MDBCardBody>
       </MDBCard>
     </div>
@@ -22,6 +23,8 @@
 
 <script setup lang="ts">
     import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImg, MDBBtn } from "mdb-vue-ui-kit";
+    import { RouterLink } from "vue-router";
+
 
 </script>
 <style scoped>
