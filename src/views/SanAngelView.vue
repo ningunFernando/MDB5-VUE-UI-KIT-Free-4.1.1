@@ -4,6 +4,7 @@
     text_color="#FAFBED"
     Frametextcolor="text-white"
     color="#60713a"
+    position="top"
     />
     <Slider
     img1="https://silly-sopapillas-764d9e.netlify.app/assets/sa_1.6469af53.jpg"

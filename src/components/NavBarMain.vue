@@ -6,17 +6,28 @@
           target="#navbarRightAlignExample" :class="Frametextcolor"
           @click="collapse5 = !collapse5"
         ></MDBNavbarToggler>
-        <MDBNavbarBrand href="#" class="logo f  pb-lg-2 pt-lg-2" >San Angel</MDBNavbarBrand>
+        <MDBNavbarBrand href="#" class="logo f  pb-lg-2 pt-lg-2" > 
+        <div class="logo2"> KU</div> <div>CHEN</div> 
+        </MDBNavbarBrand>
       </div>
       <!-- Collapsible wrapper -->
       <MDBCollapse v-model="collapse5" id="navbarRightAlignExample">
-        <MDBNavbarNav right class=" pb-lg-2 pt-lg-2 text-white">
+        <MDBNavbarNav right class=" pb-lg-2 pt-lg-2 text-black">
           <!-- Right links -->
           <MDBNavbarItem class="nav-items" to="/san_angel">
-           <div class="text-white"> Home</div>
+           <div class="text-black"> Home</div>
           </MDBNavbarItem>
           <MDBNavbarItem class="nav-items" href="#">
-            <div class="text-white"  >Link</div>
+            <div class="text-black"  >Nosotros</div>
+          </MDBNavbarItem>
+          <MDBNavbarItem class="nav-items" href="#">
+            <div class="text-black"  >Filosofia</div>
+          </MDBNavbarItem>
+          <MDBNavbarItem class="nav-items" href="#">
+            <div class="text-black"  >Proyectos</div>
+          </MDBNavbarItem>
+          <MDBNavbarItem class="nav-items" href="#">
+            <div class="text-black"  >Contacto</div>
           </MDBNavbarItem>
           <!-- Right links -->
         </MDBNavbarNav>
@@ -50,15 +61,20 @@
 <style scoped>
 .logo{
     font-family: v-bind(font_family);
-    color: v-bind(text_color);
     font-size: 2rem;
     margin-left: 30px;
+
+}
+.logo2{
+  color: #0F71F2;
 }
 
 .nav-items{
     font-family: v-bind(font_family);
     font-size: 1.3rem;
     margin-right: 20px;
+
+
 }
 
 .mobile-nav-container{
@@ -67,6 +83,8 @@ flex-direction: row-reverse;
 gap: 5rem;
 }
 .navbar{
-  background-color: v-bind(color);
+  background-color: #F8F9FA;
+
+
 }
 </style>
