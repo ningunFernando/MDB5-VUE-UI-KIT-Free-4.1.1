@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="containerTab">
         <div class="d-flex flex-column align-items-center">
             <h2>{{title}}</h2>  
             <MDBTabs v-model="activeTabId3">
@@ -11,7 +11,7 @@
                 <!-- Tabs content -->
                 <MDBTabContent>
                     <MDBTabPane tabId="ex3-1">
-                        <div class="d-flex flex-column justify-content-around ">
+                        <div class="d-flex  justify-content-around tabFlex">
                             <img class="w-75" src="../assets/sa_2.jpg" alt="">
                             <div class="d-flex flex-column justify-content-center align-items-center">
                                 <ul>
@@ -56,14 +56,34 @@
    color: black;
 
 }
+.tabFlex{
+    align-items:center;
+}
 
-.container{
+.containerTab{
     padding: 4rem 2rem;
+
+}
+.containerTab li{
+    padding-top: 10px;
+}
+.containerTab img{
+    display: flex;
+    flex-direction: column;     
+    align-items: center;
 }
 
 @media(max-width:600px){
     .tab-container{
         flex-direction: column;
     }   
+    .tabFlex{
+        align-items: center;
+        flex-direction: column;
+    }
+    .tabFlex img{
+        width: 100%;
+    }
+    
 }
 </style>

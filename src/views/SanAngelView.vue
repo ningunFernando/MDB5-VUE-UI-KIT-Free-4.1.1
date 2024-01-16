@@ -44,9 +44,13 @@
     title="Descucre nuestro modelo"
     model_name="San Angel"
     background="#faf3eb"
-    />
+    /> 
     <ContactView
-    background="#faf3eb"/>
+    background="#faf3eb"
+    buttonColor="#60713a"
+    buttonHover="#4a582c"
+    />
+
   </template>
   
   <script setup lang="ts">

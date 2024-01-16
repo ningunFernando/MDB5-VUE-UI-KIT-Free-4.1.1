@@ -65,6 +65,7 @@ const props = defineProps(['title', 'description', 'iframe', 'apartment_photo','
 .info-container{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .map{
@@ -96,8 +97,8 @@ const props = defineProps(['title', 'description', 'iframe', 'apartment_photo','
 .apartment-container{
     display: flex;
     flex-direction: row;
-
 }
+
 
 .apartment-photo img{
     width: 48.9dvw;
@@ -129,7 +130,11 @@ font-size: 2rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 10dvw;
+    width: 50dvw;
+}
+.apartment-container p{
+    width: 15dvw;
+
 }
 
 @media (max-width:600px){
@@ -162,6 +167,10 @@ font-size: 2rem;
     .apartment-info{
          width: 100dvw;
          padding-bottom: 1rem;
+    }
+    .apartment-container p{
+        width: 30dvw;
+    
     }
 }
 
