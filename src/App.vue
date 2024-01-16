@@ -2,6 +2,7 @@
 import NavBarMain from './components/NavBarMain.vue';
 import FooterView from './components/FooterView.vue';
 import Slider from './components/Slider.vue';
+import CardView from './components/CardView.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Slider from './components/Slider.vue';
   <footer-view
   bg_color="#0f71f2"
   />
+
 </template>
 
 <style scoped>

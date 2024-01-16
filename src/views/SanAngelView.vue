@@ -51,7 +51,11 @@
     />
     
     <ContactView
-    background="#faf3eb"/>
+    background="#faf3eb"
+    buttonColor="#60713A"
+    buttonHover="#4c5a2e"
+
+    />
   </template>
   
   <script setup lang="ts">
@@ -64,5 +68,5 @@
   </script>
   
   <style scoped>
-  
+
   </style>
