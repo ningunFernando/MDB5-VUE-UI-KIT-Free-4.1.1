@@ -62,19 +62,20 @@
 <style scoped>
 .logo{
     font-family: v-bind(font_family);
-    font-size: 2rem;
-    font-weight: 900;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
 .logo2{
-  margin-left: 2.5rem;
+  margin-left: 1.5rem;
   font-family: v-bind(font_family);
   color: #0F71F2;
-  font-weight: 900;
-  font-size: 2rem;
+  font-weight: 800;
+  font-size: 1.5rem;
 }
 
 .logo-img{
-  width: 22dvw;
+  width: 4.4dvw;
+  margin-left: .8rem;
 }
 
 .nav-items{
@@ -92,8 +93,12 @@ flex-direction: row-reverse;
 gap: 3rem;
 }
 .navbar{
-  background-color: #F8F9FA;
+  background-color: v-bind(color);
+}
 
-
+@media (max-width: 600px){
+  .logo-img{
+    width: 5rem;
+  }
 }
 </style>

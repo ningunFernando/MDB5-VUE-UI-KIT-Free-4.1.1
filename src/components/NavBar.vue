@@ -6,11 +6,11 @@
           target="#navbarRightAlignExample" :class="Frametextcolor"
           @click="collapse5 = !collapse5"
         ></MDBNavbarToggler>
-        <MDBNavbarBrand href="#" class="logo f  pb-lg-2 pt-lg-2" >San Angel</MDBNavbarBrand>
+        <MDBNavbarBrand href="#" class="logo f  pb-lg-3 pt-lg-3" >San Angel</MDBNavbarBrand>
       </div>
       <!-- Collapsible wrapper -->
       <MDBCollapse v-model="collapse5" id="navbarRightAlignExample">
-        <MDBNavbarNav right class=" pb-lg-2 pt-lg-2 text-white">
+        <MDBNavbarNav right class=" pb-lg-3 pt-lg-3 text-white">
           <!-- Right links -->
           <MDBNavbarItem class="nav-items" to="/san_angel">
            <div class="text-white"> Home</div>

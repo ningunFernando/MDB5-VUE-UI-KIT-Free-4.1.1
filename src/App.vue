@@ -6,26 +6,15 @@ import Slider from './components/Slider.vue';
 
 <template>
   <nav-bar-main
-  color="#F8F9FA"
+  color="#f8f9fa"
   text_color="#000000"
-  position="top"
+  position="fixed"
   title="KUCHEN"
   font_family="Montserrat"
   />
   <router-view />
-  <Slider
-  img1="https://prismatic-blini-62ad83.netlify.app/vilanova-2.jpeg"
-  img2="https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg"
-  img3="https://prismatic-blini-62ad83.netlify.app/casa-iva-3.jpg"
-  imgv1="https://prismatic-blini-62ad83.netlify.app/vilanova-2.jpeg"
-  imgv2="https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg"
-  imgv3="https://prismatic-blini-62ad83.netlify.app/casa-iva-3.jpg"
-  texto1="hola1"
-  texto2="hola2"
-  texto3="hola3"
-  />
   <footer-view
-  color="#212529"
+  bg_color="#0f71f2"
   />
 </template>
 

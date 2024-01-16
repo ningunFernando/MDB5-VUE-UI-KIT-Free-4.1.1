@@ -11,8 +11,8 @@
                 <!-- Tabs content -->
                 <MDBTabContent>
                     <MDBTabPane tabId="ex3-1">
-                        <div class="d-flex flex-row justify-content-around ">
-                            <img class="w-50" src="../assets/sa_2.jpg" alt="">
+                        <div class="d-flex flex-column justify-content-around ">
+                            <img class="w-75" src="../assets/sa_2.jpg" alt="">
                             <div class="d-flex flex-column justify-content-center align-items-center">
                                 <ul>
                                 <li>aaaaaaaaaaaaaaaaaaaaa</li>
@@ -59,5 +59,11 @@
 
 .container{
     padding: 4rem 2rem;
+}
+
+@media(max-width:600px){
+    .tab-container{
+        flex-direction: column;
+    }   
 }
 </style>

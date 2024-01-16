@@ -31,4 +31,8 @@ const props = defineProps(['title', 'description', 'iframe', 'link','bg_color','
     align-items: center;
     width: 70dvw;
 }
+
+.welcome-container p{
+    text-align: justify;
+}
 </style>

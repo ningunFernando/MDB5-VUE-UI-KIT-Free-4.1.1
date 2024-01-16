@@ -4,6 +4,7 @@
         <form action="https://formsubmit.co/your@email.com" method="POST">
             <input type="text" name="name" required placeholder="Ingrese su nombre">
             <input type="email" name="email" required placeholder="Ingrese su correo">
+            <input type="phone" name="phone" required placeholder="Ingrese su telefono">
             <button type="submit">Enviar</button>
        </form>
     </div>
@@ -17,12 +18,15 @@ const props = defineProps(['background'])
 .container {
     background-color: v-bind(background);
     width: 100dvw;
-    margin: 0 10px 0  0;
+    margin: a;
 }
  form{
     display: flex;
     flex-direction: column;
     width: 30dvw;
-    gap: 4rem
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    
 }
 </style>
