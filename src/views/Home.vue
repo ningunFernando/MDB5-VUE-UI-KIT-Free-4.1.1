@@ -1,4 +1,11 @@
 <template>
+  <nav-bar-main
+  color="#f8f9fa"
+  text_color="#000000"
+  position="fixed"
+  title="KUCHEN"
+  font_family="Montserrat"
+  />
   <Slider
   img1="https://prismatic-blini-62ad83.netlify.app/vilanova-2.jpeg"
   img2="https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg"
@@ -38,6 +45,7 @@
 </template>
 
 <script setup lang="ts">
+import NavBarMain from '../components/NavBarMain.vue';
 import Slider from '../components/Slider.vue';
 import MainWelcomeView from '../components/MainWelcomeView.vue';
 import WelcomeCards from '../components/WelcomeCards.vue';

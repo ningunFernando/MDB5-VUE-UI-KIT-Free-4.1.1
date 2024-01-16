@@ -1,18 +1,13 @@
 <script setup lang="ts">
 import NavBarMain from './components/NavBarMain.vue';
 import FooterView from './components/FooterView.vue';
-import Slider from './components/Slider.vue';
-import CardView from './components/CardView.vue';
+
 </script>
 
 <template>
-  <nav-bar-main
-  color="#f8f9fa"
-  text_color="#000000"
-  position="fixed"
-  title="KUCHEN"
-  font_family="Montserrat"
-  />
+  <div class="hidder">
+
+  </div>
   <router-view />
   <footer-view
   bg_color="#0f71f2"
