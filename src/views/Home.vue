@@ -40,6 +40,7 @@
   color="#f9fff9"
   bg_color="#f8f9fa"
   />
+  <card-view/>
 
 
 </template>
@@ -49,6 +50,8 @@ import NavBarMain from '../components/NavBarMain.vue';
 import Slider from '../components/Slider.vue';
 import MainWelcomeView from '../components/MainWelcomeView.vue';
 import WelcomeCards from '../components/WelcomeCards.vue';
+import CardView from '../components/CardView.vue';
+
 </script>
 
 <style scoped>
