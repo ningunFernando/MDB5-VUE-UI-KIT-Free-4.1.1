@@ -6,8 +6,9 @@
           target="#navbarRightAlignExample" :class="Frametextcolor"
           @click="collapse5 = !collapse5"
         ></MDBNavbarToggler>
-        <MDBNavbarBrand href="#" class="logo f  pb-lg-2 pt-lg-2" > 
-        <div class="logo2"> KU</div> <div>CHEN</div> 
+        <MDBNavbarBrand href="#" class="fa-10x pb-lg-2 pt-lg-2" > 
+          <img class="logo-img" src="https://prismatic-blini-62ad83.netlify.app/favicon.png" alt="">
+        <div class="logo2"> KU</div> <div class="logo">CHEN</div> 
         </MDBNavbarBrand>
       </div>
       <!-- Collapsible wrapper -->
@@ -62,17 +63,25 @@
 .logo{
     font-family: v-bind(font_family);
     font-size: 2rem;
-    margin-left: 30px;
-
+    font-weight: 900;
 }
 .logo2{
+  margin-left: 2.5rem;
+  font-family: v-bind(font_family);
   color: #0F71F2;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.logo-img{
+  width: 22dvw;
 }
 
 .nav-items{
     font-family: v-bind(font_family);
     font-size: 1.3rem;
     margin-right: 20px;
+    
 
 
 }
@@ -80,7 +89,7 @@
 .mobile-nav-container{
 display: flex;
 flex-direction: row-reverse;
-gap: 5rem;
+gap: 3rem;
 }
 .navbar{
   background-color: #F8F9FA;
