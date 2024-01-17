@@ -18,8 +18,8 @@
   card_text="Cantidad de viviendas construidas: 186"
   icon2="fas fa-map-marker-alt"
   card_title2="Visión"
-  card_text2="Brindar confianza a nuestros clientes, cumpliendo con su necesidades, mejorando su nivel de satisfacción, superando siempre sus expectativas."
-  icon3="fas fa-handshake"
+  card_text2="Con una mirada puesta en el futuro, se encuentra a metros de la avenida principal que conecta Pto. Vallarta y Nvo. Vallarta"
+  icon3="https://www.kuchenconstrucciones.com/IMG/calendar-sharp.svg"
   card_title3="Valores"
   title="Filosofia"
   text="En Kuchen nuestro proposito es dar lo mejor a nuestros clientes,
