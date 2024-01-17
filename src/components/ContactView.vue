@@ -1,5 +1,5 @@
 <template>
-    <div class="w-100  containerTab">
+    <div id="Contact" class="w-100  containerTab">
         <div class="containerTab w-75 ">
             <h2 style="font-family: Montserrat;">Contactenos</h2>
             <form action="https://formsubmit.co/your@email.com" method="POST">
@@ -14,12 +14,12 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps(['background','buttonColor','buttonHover'])
+const props = defineProps(['Background', 'ButtonColor', 'ButtonHover'])
 </script>
 
 <style scoped>
 .containerTab {
-    background-color: v-bind(background);
+    background-color: v-bind(Background);
     margin: 0;
     display: flex;
     flex-direction: column;     
@@ -38,11 +38,26 @@ form input{
     height: 5.5dvh;
 }
 form button{
-    background-color: v-bind(buttonColor);
-    color: #000000;
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    border-spacing: 0;
+    color: #f8f9fa;
+    font-family: Montserrat,sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 2rem;
+    list-style: none outside none;
+    margin: 0;
+    padding: .4rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: v-bind(ButtonColor);
+    width: 15dvw;
+    border-radius: 2%;
+    box-shadow: 1px 1px 2px #000000;
 }
 form button:hover{
-    background-color: v-bind(buttonHover);
+    background-color: v-bind(ButtonHover);
 }
 @media screen  and (max-width: 750px){
     form input{

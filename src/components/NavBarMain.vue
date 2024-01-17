@@ -18,7 +18,7 @@
           <MDBNavbarItem class="nav-items" to="/san_angel">
            <div class="text-black"> Home</div>
           </MDBNavbarItem>
-          <MDBNavbarItem class="nav-items" href="#">
+          <MDBNavbarItem class="nav-items" href="UsSection">
             <div class="text-black"  >Nosotros</div>
           </MDBNavbarItem>
           <MDBNavbarItem class="nav-items" href="#">
@@ -27,7 +27,7 @@
           <MDBNavbarItem class="nav-items" href="#">
             <div class="text-black"  >Proyectos</div>
           </MDBNavbarItem>
-          <MDBNavbarItem class="nav-items" href="#">
+          <MDBNavbarItem class="nav-items" href="Contact">
             <div class="text-black"  >Contacto</div>
           </MDBNavbarItem>
           <!-- Right links -->

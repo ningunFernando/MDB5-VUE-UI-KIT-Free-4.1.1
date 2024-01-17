@@ -42,7 +42,10 @@
   />
 
 <CardsSlider/>
-<ContactView/>
+<ContactView
+  ButtonColor="#0f71f2"
+  ButtonHover="#0f99f2"
+/>
 
 </template>
 
