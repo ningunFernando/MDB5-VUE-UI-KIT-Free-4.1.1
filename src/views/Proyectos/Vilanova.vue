@@ -16,7 +16,7 @@
   icon="fas fa-home"
   card_title="Casas"
   card_text="Cantidad de viviendas construidas: 186"
-  icon2=""
+  icon2="fas fa-map-marker-alt"
   card_title2="Visión"
   card_text2="Brindar confianza a nuestros clientes, cumpliendo con su necesidades, mejorando su nivel de satisfacción, superando siempre sus expectativas."
   icon3="fas fa-handshake"
@@ -29,12 +29,15 @@
   bg_color="#f8f9fa"
   />
 
+  <GridGallery/>
+
 </template>
 
 <script setup lang="ts">
  import NavBarMain from '../../components/NavBarMain.vue';
  import MainWelcomeView from '../../components/MainWelcomeView.vue';
 import CardProyectos from '../../components/CardProyectos.vue';
+import GridGallery from '../../components/GridGallery.vue';
 
 </script>
 <style scoped>
