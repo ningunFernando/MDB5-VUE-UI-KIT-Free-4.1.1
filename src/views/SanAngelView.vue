@@ -51,9 +51,9 @@
     />
 
     <ContactView
-    background="#faf3eb"
-    buttonColor="#60713A"
-    buttonHover="#4c5a2e"
+      Background="#faf3eb"
+      ButtonColor="#60713A"
+      ButtonHover="#4c5a2e"
     />
   </template>
   

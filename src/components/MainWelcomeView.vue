@@ -1,5 +1,5 @@
 <template>
-    <div class="welcome-container">
+    <div class="welcome-container" id="UsSection">
         <img :src="img" alt="">
         <div class="welcome-info">
              <h3>{{title}}</h3>
