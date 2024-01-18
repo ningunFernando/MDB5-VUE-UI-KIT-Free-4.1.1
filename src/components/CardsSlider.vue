@@ -94,7 +94,7 @@ const info =[
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 .container{
     width: 100dvw;

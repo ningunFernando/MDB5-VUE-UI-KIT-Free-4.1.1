@@ -5,7 +5,6 @@
              <h3>{{title}}</h3>
              <p>{{text1}}</p>
              <p>{{text2}}</p>
-             <button>Ver nuestros proyectos</button>
         </div>
     </div>
 </template>
@@ -25,10 +24,15 @@
         justify-content: center;
         background-color: #f8f9fa;
         gap: 3rem;
-        padding: 5rem;
+        padding: 8rem 9rem 3rem 9rem;
+    }
+    .welcome-container img{
+        background-color: black;
+        width: 50dvw;
+        border-radius: 15px;
     }
     .welcome-info{
-        width: 42dvw;
+        width: 38dvw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -36,28 +40,11 @@
         text-align: justify;
         font-family: Montserrat;
         font-size: 1.15rem;
+        color: black;
     }
 
     .welcome-info h3{
-        font-size: 2rem;
-    }
-    .welcome-info button{
-        background: none repeat scroll 0 0 transparent;
-        border: medium none;
-        border-spacing: 0;
-        color: #f8f9fa;
-        font-family: Montserrat,sans-serif;
-        font-size: 17px;
-        font-weight: normal;
-        line-height: 2rem;
-        list-style: none outside none;
-        margin: 0;
-        padding: .4rem;
-        text-align: center;
-        text-decoration: none;
-        background-color: #0f71f2;
-        width: 15dvw;
-        border-radius: 2%;
+        font-size: 3rem;
     }
 
     @media(max-width: 600px){

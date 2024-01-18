@@ -1,95 +1,5 @@
 <template>
-    <div>
-        <div id="gallery" class="grid-container-gallery">
-            <div
-              class="grid-item tall"
-              style="background-image: url('../IMG/vilanova/casa-vila.jpeg')"
-            ></div>
-            <div
-              class="grid-item"
-              style="
-                background-image: url('../IMG/vilanova/alberca-vila.jpg');
-              "
-            ></div>
-      
-            <div
-              class="grid-item wide"
-              style="
-                background-image: url('../IMG/vilanova/ave-vila-2.jpg');
-              "
-            ></div>
-            <div
-              class="grid-item"
-              style="
-                background-image: url('../IMG/vilanova/ave-vila.jpeg');
-              "
-            ></div>
-            <div
-              class="grid-item"
-              style="
-                background-image: url('../IMG/vilanova/casa-vila-2.jpg');
-              "
-            ></div>
-            <div
-              class="grid-item"
-              style="
-                background-image: url('../IMG/vilanova/casa-vila-3.jpg');
-              "
-            ></div>
-            <div
-              class="grid-item"
-              style="
-                background-image: url('../IMG/vilanova/casa-vila.jpeg');
-              "
-            ></div>
-            <div
-              class="grid-item"
-              style="background-image: url('../IMG/vilanova/gym-vila.webp')"
-            ></div>
-            <div
-              class="grid-item tall wide"
-              style="
-                background-image: url('../IMG/vilanova-2.jpeg');
-              "
-            ></div>
-            <div
-              class="grid-item"
-              style="
-                background-image: url('../IMG/vilanova/pista-vila.webp');
-              "
-            ></div>
-            <div
-              class="grid-item"
-              style="
-                background-image: url('../IMG/vilanova/vilanova.jpg ');
-              "
-            ></div>
-            <div
-              class="grid-item"
-              style="
-                background-image: url('../IMG/vilanova/ninos-vila.webp');
-              "
-            ></div>
-            <div
-              class="grid-item"
-              style="
-                background-image: url('../IMG/vilanova/alberca-vila.jpg');
-              "
-            ></div>
-            <div
-              class="grid-item"
-              style="
-                background-image: url('../IMG/vilanova/casa-vila.jpeg');
-              "
-            ></div>
-            <div
-              class="grid-item"
-              style="
-                background-image: url('../IMG/vilanova/casa-vila-2.jpg');
-              "
-            ></div>
-          </div>
-    </div>
+   
 </template>
 
 <script setup lang="ts">
@@ -100,6 +10,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  background-color: #f8f9fa;
 }
 
 .grid-item {

@@ -1,5 +1,5 @@
 <template>
-    <MDBNavbar expand="lg" light class-navbar="navbar" :position="position" container>
+    <MDBNavbar expand="lg" light class-navbar="navbar" position="top" container>
       <!-- Toggle button -->
       <div class="mobile-nav-container">
         <MDBNavbarToggler

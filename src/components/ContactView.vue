@@ -24,7 +24,7 @@ const props = defineProps(['Background', 'ButtonColor', 'ButtonHover'])
     display: flex;
     flex-direction: column;     
     align-items: center;
-    padding: 10px;
+    padding: 0rem 0 2rem 0;
 }
  form{
     display: flex;
@@ -62,7 +62,12 @@ form button:hover{
 @media screen  and (max-width: 750px){
     form input{
         width: 65dvw;
-        
+    }
+    form button{
+        width: 45dvw;
+    }
+    .containerTab h2{
+        padding: 0 0 1.4rem 0;
     }
 }
 </style>
