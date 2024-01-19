@@ -8,21 +8,21 @@
     />
     <div class="m-5"></div>
     <ProyectWelcomeView
-    img="https://www.kuchenconstrucciones.com/IMG/vilanova/vilanova-2.jpeg"
-    title="Vilanova Residencial"
-    text1="Vilanova es un espacio residencial que reúne en un solo lugar, elegancia y sofisticación. Conoce este espacio de confort, exclusividad y calma, diseñado para ser tu mejor inversión."
+    img="https://prismatic-blini-62ad83.netlify.app/parque-cari.jpg"
+    title="Carima"
+    text1="Carima cuenta con 372 viviendas verticales, las cuales están contenidas en 31 condominios de 3 niveles, de 12 departamentos cada uno. Un entorno completo con amplios espacios de esparcimiento para todas las edades. Incluyendo una ciudad infantil para los más pequeños."
     />
   <CardProyectos
   icon="fas fa-home"
   card_title="Casas"
-  card_text="Cantidad de viviendas construidas: 297"
+  card_text="Cantidad de viviendas construidas: 372"
   icon2="fas fa-map-marker-alt"
-  card_title2="Visión"
-  card_text2="Con una mirada puesta en el futuro, se encuentra a metros de la avenida principal que conecta Pto. Vallarta y Nvo. Vallarta"
+  card_title2="Ubicación"
+  card_text2="Ubicación privilegiada, en el crucero más importante de la zona conurbada. Cerca de múltiples opciones sociales y comerciales."
   icon3="fas fa-calendar-alt"
-  card_title3="Valores"
-  card_list1="Inicio del proyecto: Mayo 2019"
-  card_list2="Fin del proyecto Noviembre 2022"
+  card_title3="Fechas del proyecto"
+  card_list1="Inicio del proyecto: Abril 2020"
+  card_list2="Fin del proyecto Diciembre 2021"
   card_color="#F2F2F2"
   color="#000000"
   bg_color="#f8f9fa"
@@ -32,89 +32,89 @@
     <div id="gallery" class="grid-container-gallery">
         <div
           class="grid-item tall"
-          style="background-image: url('../IMG/vilanova/casa-vila.jpeg')"
+          style="background-image: url('https://prismatic-blini-62ad83.netlify.app/edificio-cari-2.jpg')"
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/alberca-vila.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/aerea-cari.jpg');
           "
         ></div>
   
         <div
           class="grid-item wide"
           style="
-            background-image: url('../IMG/vilanova/ave-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/edificio-cari.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/ave-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/edificio-cari-2.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/edificio-cari-3.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-3.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/edificio-cari-4.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/parque-cari-2.jpg');
           "
         ></div>
         <div
           class="grid-item"
-          style="background-image: url('../IMG/vilanova/gym-vila.webp')"
+          style="background-image: url('https://prismatic-blini-62ad83.netlify.app/parque-cari-3.jpg')"
         ></div>
         <div
           class="grid-item tall wide"
           style="
-            background-image: url('../IMG/vilanova-2.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/aerea-cari-2.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/pista-vila.webp');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/parque-cari-4.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/vilanova.jpg ');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/parque-cari-5.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/ninos-vila.webp');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/parque-cari-6.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/alberca-vila.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/parque-cari-7.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/parque-cari-8.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/edificio-cari-3.jpg');
           "
         ></div>
       </div>

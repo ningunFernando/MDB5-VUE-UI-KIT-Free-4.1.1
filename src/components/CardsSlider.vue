@@ -35,55 +35,55 @@ const info =[
             img:"https://prismatic-blini-62ad83.netlify.app/el-roble.png",
             title:"EL ROBLE",
             text:"Abr, 2016",
-            link:"/vilanova"
+            link:"/ElRoble"
         },
         {
             img:"https://prismatic-blini-62ad83.netlify.app/edi-mar-18.jpg",
             title:"MARALTA",
             text:"Feb, 2018",
-            link:"a"
+            link:"/Maralta"
         },
         {
             img:"https://prismatic-blini-62ad83.netlify.app/alberca-vila.jpg",
             title:"VILANOVA",
             text:"May, 2019",
-            link:"a"
+            link:"/Vilanova"
         },
         {
             img:"https://prismatic-blini-62ad83.netlify.app/entrada-iva-2.jpg",
             title:"IVARICA",
             text:"Abr, 2020",
-            link:"a"
+            link:"/Ivarica"
         },
         {
             img:"https://prismatic-blini-62ad83.netlify.app/edificio-cari-2.jpg",
             title:"CARIMA",
             text:"Abr, 2020",
-            link:"a"
+            link:"/Carima"
         },
         {
             img:"https://prismatic-blini-62ad83.netlify.app/portovela.jpg",
             title:"PORTOVELA",
             text:"Abr, 2021",
-            link:"a"
+            link:"/Portovela"
         },
         {
             img:"https://prismatic-blini-62ad83.netlify.app/rafael-render-11.png",
             title:"CONDOMINIO SAN RAFAEL",
             text:"texto de prueba",
-            link:"a"
+            link:"/SanRafael"
         },
         {
             img:"https://prismatic-blini-62ad83.netlify.app/zita-%20(1).jpg",
             title:"ZITADELA",
             text:"Oct, 2022",
-            link:"a"
+            link:"/Zitadela"
         },
         {
             img:"https://prismatic-blini-62ad83.netlify.app/13.jpeg",
             title:"NUESTRAS OFICINAS",
             text:"Sep, 2022",
-            link:"a"
+            link:"/Oficinas"
         },
         {
             img:"https://prismatic-blini-62ad83.netlify.app/d.png",

@@ -17,12 +17,12 @@
   card_title="Casas"
   card_text="Cantidad de viviendas construidas: 297"
   icon2="fas fa-map-marker-alt"
-  card_title2="Visión"
+  card_title2="Ubicación"
   card_text2="Con una mirada puesta en el futuro, se encuentra a metros de la avenida principal que conecta Pto. Vallarta y Nvo. Vallarta"
   icon3="fas fa-calendar-alt"
-  card_title3="Valores"
+  card_title3="Fechas del proyecto"
   card_list1="Inicio del proyecto: Mayo 2019"
-  card_list2="Fin del proyecto Noviembre 2022"
+  card_list2="Fin del proyecto: Noviembre 2022"
   card_color="#F2F2F2"
   color="#000000"
   bg_color="#f8f9fa"
@@ -32,89 +32,89 @@
     <div id="gallery" class="grid-container-gallery">
         <div
           class="grid-item tall"
-          style="background-image: url('../IMG/vilanova/casa-vila.jpeg')"
+          style="background-image: url('https://prismatic-blini-62ad83.netlify.app/casa-vila.jpeg')"
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/alberca-vila.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/alberca-vila.jpg');
           "
         ></div>
   
         <div
           class="grid-item wide"
           style="
-            background-image: url('../IMG/vilanova/ave-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/ave-vila-2.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/ave-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/ave-vila.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/casa-vila-2.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-3.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/casa-vila-3.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/casa-vila.jpeg');
           "
         ></div>
         <div
           class="grid-item"
-          style="background-image: url('../IMG/vilanova/gym-vila.webp')"
+          style="background-image: url('https://prismatic-blini-62ad83.netlify.app/gym-vila.webp')"
         ></div>
         <div
           class="grid-item tall wide"
           style="
-            background-image: url('../IMG/vilanova-2.jpeg');
+            background-image: url('https://www.kuchenconstrucciones.com/IMG/vilanova/vilanova-2.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/pista-vila.webp');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/pista-vila.webp');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/vilanova.jpg ');
+            background-image: url('https://www.kuchenconstrucciones.com/IMG/vilanova/vilanova-2.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/ninos-vila.webp');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/ninos-vila.webp');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/alberca-vila.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/alberca-vila.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/casa-vila.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/casa-vila-2.jpg');
           "
         ></div>
       </div>
