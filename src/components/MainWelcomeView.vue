@@ -1,6 +1,6 @@
 <template>
     <div class="welcome-container" id="UsSection">
-        <img :src="img" alt="">
+        <img :src="img" alt="" class="rounded">
         <div class="welcome-info">
              <h3>{{title}}</h3>
              <p>{{text1}}</p>

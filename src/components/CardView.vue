@@ -1,18 +1,19 @@
 <template>
-    <div class="d-flex justify-content-center">
-    <MDBCard class="mdbCard" style="padding: 10px;">
+    <div class="d-flex justify-content-center h-100">
+    <MDBCard class="mdbCard" style="padding: 0px;  ">
         <MDBCardImg
         :src="data.img"
           top
           alt="..."
-          class="img"
+          class="img  h-75"
         />
         <MDBCardBody>
           <MDBCardTitle>{{data.title}}</MDBCardTitle>
-          <MDBCardText>
-            {{data.text}}
-          </MDBCardText>
-          <RouterLink :to="data.link">hola</RouterLink>
+          <div class="date d-flex flex-row">
+            <i class="far fa-clock"></i>
+            <p>{{data.text}}</p>
+          </div>
+          <RouterLink :to="data.link" class="button">Ver mas</RouterLink>
         </MDBCardBody>
       </MDBCard>
     </div>
@@ -31,10 +32,29 @@
 </script>
 <style scoped>
     .mdbCard{
-        width: 20.5dvw;
-        background-color: rgb(249, 249, 249);
-        box-shadow: 2px 4px 7px rgb(185, 185, 185);
+        width: 22dvw;
+        background-color: rgb(249, 250, 255);
+        box-shadow: 1px 3px 4px rgb(185, 185, 185);
         margin-bottom: 2rem;
+    }
+
+    
+
+    .button{
+      background-color: #0f71f2;
+      color: aliceblue;
+      padding: .4rem 2rem;
+      border-radius: 5px;
+    }
+    .date{
+      color: #a5aaab;
+    }
+    .date i{
+      margin: .3rem .5rem 0 0;
+    }
+
+    .img{
+      padding: 10rem;
     }
 
     @media(max-width:600px){

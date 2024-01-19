@@ -32,43 +32,44 @@
     <div id="gallery" class="grid-container-gallery">
         <div
           class="grid-item tall"
-          style="background-image: url('../IMG/vilanova/casa-vila.jpeg')"
+          style="background-image: url('https://prismatic-blini-62ad83.netlify.app/ro-img-1.jpg')"
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/alberca-vila.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/ro-img-2.jpg');
           "
         ></div>
   
         <div
           class="grid-item wide"
           style="
-            background-image: url('../IMG/vilanova/ave-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/ro-img-3.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/ave-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/ro-img-4.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/ro-img-5.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-3.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/ro-img-6.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila.jpeg');
+          background-image: url('../../assets/sa_1.jpg');
+
           "
         ></div>
         <div

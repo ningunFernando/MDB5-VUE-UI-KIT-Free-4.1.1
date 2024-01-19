@@ -8,7 +8,8 @@
                     donde se demuestra la mejor calidad y dedicacion</p>
             </div>
             <div class="slider">
-                <Splide :options="{ rewind: true, perPage:3, breakpoints:{
+                <Splide :options="{ rewind: true, perPage:3, 
+                    breakpoints:{
                     600:{
                         perPage:1,
                         arrows:false,
@@ -31,57 +32,63 @@ import CardView from './CardView.vue';
 
 const info =[
         {
-            img:"https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg",
-            title:"Vilanova",
-            text:"texto de prueba",
+            img:"https://prismatic-blini-62ad83.netlify.app/el-roble.png",
+            title:"EL ROBLE",
+            text:"Abr, 2016",
             link:"/vilanova"
         },
         {
-            img:"https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg",
-            title:"Portavela",
+            img:"https://prismatic-blini-62ad83.netlify.app/edi-mar-18.jpg",
+            title:"MARALTA",
+            text:"Feb, 2018",
+            link:"a"
+        },
+        {
+            img:"https://prismatic-blini-62ad83.netlify.app/alberca-vila.jpg",
+            title:"VILANOVA",
+            text:"May, 2019",
+            link:"a"
+        },
+        {
+            img:"https://prismatic-blini-62ad83.netlify.app/entrada-iva-2.jpg",
+            title:"IVARICA",
+            text:"Abr, 2020",
+            link:"a"
+        },
+        {
+            img:"https://prismatic-blini-62ad83.netlify.app/edificio-cari-2.jpg",
+            title:"CARIMA",
+            text:"Abr, 2020",
+            link:"a"
+        },
+        {
+            img:"https://prismatic-blini-62ad83.netlify.app/portovela.jpg",
+            title:"PORTOVELA",
+            text:"Abr, 2021",
+            link:"a"
+        },
+        {
+            img:"https://prismatic-blini-62ad83.netlify.app/rafael-render-11.png",
+            title:"CONDOMINIO SAN RAFAEL",
             text:"texto de prueba",
             link:"a"
         },
         {
-            img:"https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg",
-            title:"Portavela",
-            text:"texto de prueba",
+            img:"https://prismatic-blini-62ad83.netlify.app/zita-%20(1).jpg",
+            title:"ZITADELA",
+            text:"Oct, 2022",
             link:"a"
         },
         {
-            img:"https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg",
-            title:"Portavela",
-            text:"texto de prueba",
+            img:"https://prismatic-blini-62ad83.netlify.app/13.jpeg",
+            title:"NUESTRAS OFICINAS",
+            text:"Sep, 2022",
             link:"a"
         },
         {
-            img:"https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg",
-            title:"Portavela",
-            text:"texto de prueba",
-            link:"a"
-        },
-        {
-            img:"https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg",
-            title:"aaaaaaaaaaaaaaaa",
-            text:"texto de prueba",
-            link:"a"
-        },
-        {
-            img:"https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg",
-            title:"Portavela",
-            text:"texto de prueba",
-            link:"a"
-        },
-        {
-            img:"https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg",
-            title:"Portavela",
-            text:"texto de prueba",
-            link:"a"
-        },
-        {
-            img:"https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg",
-            title:"aaaaaaaaaaaaaaaa",
-            text:"texto de prueba",
+            img:"https://prismatic-blini-62ad83.netlify.app/d.png",
+            title:"PROXIMAMENTE",
+            text:"2024",
             link:"a"
         }
 
@@ -94,7 +101,7 @@ const info =[
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    padding: 5rem 0;
+    padding: 5rem .1rem;
 }
 .container{
     width: 100dvw;

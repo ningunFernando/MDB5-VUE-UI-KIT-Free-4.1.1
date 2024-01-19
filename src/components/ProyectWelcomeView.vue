@@ -50,8 +50,13 @@
     @media(max-width: 600px){
         .welcome-container{
             flex-direction: column-reverse;
-            padding: 3.2rem;
+            padding: 5rem 2rem;
             gap: 2rem;
+        }
+
+        .welcome-container img{
+          width: 80dvw;
+          height: 25dvh;
         }
         .welcome-info{
             width: 72dvw;
@@ -62,9 +67,6 @@
             width: 50dvw;
             font-size: 1rem;
             padding: .1rem;
-        }
-        img{
-            width: 70dvw;
         }
     }
 </style>
