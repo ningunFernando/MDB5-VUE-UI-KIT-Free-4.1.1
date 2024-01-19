@@ -87,11 +87,16 @@ const info =[
         },
         {
             img:"https://prismatic-blini-62ad83.netlify.app/d.png",
+            title:"San Angel",
+            text:"Oct, 2023",
+            link:"/sanAngel"
+        },
+        {
+            img:"https://prismatic-blini-62ad83.netlify.app/d.png",
             title:"PROXIMAMENTE",
             text:"2024",
             link:"a"
         }
-
     ]
 </script>
 

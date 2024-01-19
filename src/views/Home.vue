@@ -7,15 +7,15 @@
   font_family="Montserrat"
   />
   <Slider
-  img1="https://prismatic-blini-62ad83.netlify.app/vilanova-2.jpeg"
-  img2="https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg"
-  img3="https://prismatic-blini-62ad83.netlify.app/casa-iva-3.jpg"
+  img1="https://prismatic-blini-62ad83.netlify.app/sanrender1.jpeg"
+  img2="https://prismatic-blini-62ad83.netlify.app/sa_1.jpg"
+  img3="https://prismatic-blini-62ad83.netlify.app/rafael-render-12.jpeg  "
   imgv1="https://prismatic-blini-62ad83.netlify.app/vilanova-2.jpeg"
   imgv2="https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg"
   imgv3="https://prismatic-blini-62ad83.netlify.app/casa-iva-3.jpg"
-  texto1="hola1"
-  texto2="hola2"
-  texto3="hola3"
+  texto1="¡Bienvenido!"
+  texto2=""
+  texto3=""
   />
   <MainWelcomeView
   img="https://prismatic-blini-62ad83.netlify.app/nosotros-2.png"
