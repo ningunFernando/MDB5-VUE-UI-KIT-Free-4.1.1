@@ -8,20 +8,23 @@
     />
     <div class="m-5"></div>
     <ProyectWelcomeView
-    img="https://www.kuchenconstrucciones.com/IMG/vilanova/vilanova-2.jpeg"
-    title="Vilanova Residencial"
-    text1="Vilanova es un espacio residencial que reúne en un solo lugar, elegancia y sofisticación. Conoce este espacio de confort, exclusividad y calma, diseñado para ser tu mejor inversión."
+    img="https://prismatic-blini-62ad83.netlify.app/portovela.jpg"
+    title="Portovela Residencial"
+    text1="Portovela es un desarrollo exclusivo hecho a la medida de las personas más exigentes, aquellas que buscan un hogar, 
+    una excelente calidad de vida y una oportunidad de inversión inigualable.
+
+    "
     />
   <CardProyectos
   icon="fas fa-home"
   card_title="Casas"
-  card_text="Cantidad de viviendas construidas: 297"
+  card_text="Cantidad de viviendas construidas: 188"
   icon2="fas fa-map-marker-alt"
-  card_title2="Visión"
-  card_text2="Con una mirada puesta en el futuro, se encuentra a metros de la avenida principal que conecta Pto. Vallarta y Nvo. Vallarta"
+  card_title2="Ubicación"
+  card_text2="Cerca de todo lo necesario para una vida plena, a metros de la carretera 200 y de los desarrollos turísticos más importantes del país."
   icon3="fas fa-calendar-alt"
-  card_title3="Valores"
-  card_list1="Inicio del proyecto: Mayo 2019"
+  card_title3="Fechas del proyecto"
+  card_list1="Inicio del proyecto: Abril 2021"
   card_list2="Fin del proyecto Noviembre 2022"
   card_color="#F2F2F2"
   color="#000000"
@@ -32,89 +35,89 @@
     <div id="gallery" class="grid-container-gallery">
         <div
           class="grid-item tall"
-          style="background-image: url('../IMG/vilanova/casa-vila.jpeg')"
+          style="background-image: url('https://prismatic-blini-62ad83.netlify.app/casas-porto-1.jpg')"
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/alberca-vila.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg');
           "
         ></div>
   
         <div
           class="grid-item wide"
           style="
-            background-image: url('../IMG/vilanova/ave-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/aerea-porto.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/ave-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/porto-cont-6.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/porto-cont-2.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-3.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/club-porto-5.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/porto-cont-5.jpeg');
           "
         ></div>
         <div
           class="grid-item"
-          style="background-image: url('../IMG/vilanova/gym-vila.webp')"
+          style="background-image: url('https://prismatic-blini-62ad83.netlify.app/gym%20porto.jpg')"
         ></div>
         <div
           class="grid-item tall wide"
           style="
-            background-image: url('../IMG/vilanova-2.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/portovela.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/pista-vila.webp');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/club-porto-4.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/vilanova.jpg ');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/casas-porto-1.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/ninos-vila.webp');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/alberca-vila.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/club-porto-7.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/gym%20porto.jpg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/porto-cont-5.jpeg');
           "
         ></div>
       </div>

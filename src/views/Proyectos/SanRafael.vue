@@ -9,20 +9,20 @@
     <div class="m-5"></div>
     <ProyectWelcomeView
     img="https://www.kuchenconstrucciones.com/IMG/vilanova/vilanova-2.jpeg"
-    title="Vilanova Residencial"
-    text1="Vilanova es un espacio residencial que reúne en un solo lugar, elegancia y sofisticación. Conoce este espacio de confort, exclusividad y calma, diseñado para ser tu mejor inversión."
+    title="Condominios San Rafael"
+    text1="Un desarrollo exclusivo hecho a la medida de las personas más exigentes, aquellas que buscan un hogar, una excelente calidad de vida y una oportunidad de inversión inigualable."
     />
   <CardProyectos
   icon="fas fa-home"
   card_title="Casas"
-  card_text="Cantidad de viviendas construidas: 297"
+  card_text="Cantidad de viviendas construidas: 9"
   icon2="fas fa-map-marker-alt"
-  card_title2="Visión"
-  card_text2="Con una mirada puesta en el futuro, se encuentra a metros de la avenida principal que conecta Pto. Vallarta y Nvo. Vallarta"
+  card_title2="Ubicación"
+  card_text2="Cerca de todo lo necesario para una vida plena, a metros de la carretera 200 y de los desarrollos turísticos más importantes del país."
   icon3="fas fa-calendar-alt"
-  card_title3="Valores"
-  card_list1="Inicio del proyecto: Mayo 2019"
-  card_list2="Fin del proyecto Noviembre 2022"
+  card_title3="Fechas del proyecto"
+  card_list1="Inicio del proyecto: Mayo 2022"
+  card_list2="Fin del proyecto: En desarrollo"
   card_color="#F2F2F2"
   color="#000000"
   bg_color="#f8f9fa"
@@ -32,89 +32,89 @@
     <div id="gallery" class="grid-container-gallery">
         <div
           class="grid-item tall"
-          style="background-image: url('../IMG/vilanova/casa-vila.jpeg')"
+          style="background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-const-4.jpeg')"
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/alberca-vila.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-const-1.jpeg');
           "
         ></div>
   
         <div
           class="grid-item wide"
           style="
-            background-image: url('../IMG/vilanova/ave-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-render-5.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/ave-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-const-5.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-const-3.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-3.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-render-13.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-const-8.jpeg');
           "
         ></div>
         <div
           class="grid-item"
-          style="background-image: url('../IMG/vilanova/gym-vila.webp')"
+          style="background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-const-7.jpeg')"
         ></div>
         <div
           class="grid-item tall wide"
           style="
-            background-image: url('../IMG/vilanova-2.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-render-12.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/pista-vila.webp');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-const-10.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/vilanova.jpg ');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-render-8.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/ninos-vila.webp');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-const-9.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/alberca-vila.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-render-16.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-render-15.jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/rafael-render-1.jpeg');
           "
         ></div>
       </div>

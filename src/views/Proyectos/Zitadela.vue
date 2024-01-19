@@ -8,21 +8,21 @@
     />
     <div class="m-5"></div>
     <ProyectWelcomeView
-    img="https://www.kuchenconstrucciones.com/IMG/vilanova/vilanova-2.jpeg"
-    title="Vilanova Residencial"
-    text1="Vilanova es un espacio residencial que reúne en un solo lugar, elegancia y sofisticación. Conoce este espacio de confort, exclusividad y calma, diseñado para ser tu mejor inversión."
+    img="https://prismatic-blini-62ad83.netlify.app/zita-%20(1).jpg"
+    title="Zitadela"
+    text1="Zitadela es la oportunidad de elegir vivir en una comunidad privilegiada. Aseguramos tu inversión manteniendo el valor de una comunidad organizada, con espacios amplios, funcionales y atractivos."
     />
   <CardProyectos
   icon="fas fa-home"
   card_title="Casas"
-  card_text="Cantidad de viviendas construidas: 297"
+  card_text="Cantidad de viviendas construidas: 1008"
   icon2="fas fa-map-marker-alt"
-  card_title2="Visión"
-  card_text2="Con una mirada puesta en el futuro, se encuentra a metros de la avenida principal que conecta Pto. Vallarta y Nvo. Vallarta"
+  card_title2="Ubicación"
+  card_text2="Zitadela se encuentra estratégicamente dentro de las principales vialidades de Bahía de Banderas, cerca de todo lo importante para tener una vida plena."
   icon3="fas fa-calendar-alt"
-  card_title3="Valores"
-  card_list1="Inicio del proyecto: Mayo 2019"
-  card_list2="Fin del proyecto Noviembre 2022"
+  card_title3="Fechas del proyecto"
+  card_list1="Inicio del proyecto: Octubre 2022"
+  card_list2="Fin del proyecto: En desarrollo"
   card_color="#F2F2F2"
   color="#000000"
   bg_color="#f8f9fa"
@@ -32,89 +32,89 @@
     <div id="gallery" class="grid-container-gallery">
         <div
           class="grid-item tall"
-          style="background-image: url('../IMG/vilanova/casa-vila.jpeg')"
+          style="background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(5).jpeg')"
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/alberca-vila.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(3).jpeg');
           "
         ></div>
   
         <div
           class="grid-item wide"
           style="
-            background-image: url('../IMG/vilanova/ave-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(2).jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/ave-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(4).jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(16).jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-3.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(6).jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(7).jpeg');
           "
         ></div>
         <div
           class="grid-item"
-          style="background-image: url('../IMG/vilanova/gym-vila.webp')"
+          style="background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(8).jpeg')"
         ></div>
         <div
           class="grid-item tall wide"
           style="
-            background-image: url('../IMG/vilanova-2.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(10).jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/pista-vila.webp');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(9).jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/vilanova.jpg ');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(11).jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/ninos-vila.webp');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(12).jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/alberca-vila.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(13).jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila.jpeg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(14).jpeg');
           "
         ></div>
         <div
           class="grid-item"
           style="
-            background-image: url('../IMG/vilanova/casa-vila-2.jpg');
+            background-image: url('https://prismatic-blini-62ad83.netlify.app/zita-%20(15).jpeg');
           "
         ></div>
       </div>
