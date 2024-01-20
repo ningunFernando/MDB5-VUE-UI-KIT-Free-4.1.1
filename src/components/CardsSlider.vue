@@ -3,9 +3,8 @@
     <div class="container">
         <div class="wrapper">
             <div class="title">
-                <h2>Proyectos</h2>
-                <p>Algunos de nuestros proyectos son los que se muestran a continuación.
-                    donde se demuestra la mejor calidad y dedicacion</p>
+                <h2>{{title}}</h2>
+                <p>{{text}}</p>
             </div>
             <div class="slider">
                 <Splide :options="{ rewind: true, perPage:3, 
@@ -29,6 +28,8 @@
 
 <script setup lang="ts">
 import CardView from './CardView.vue';
+
+const props = defineProps(['title', 'text']);
 
 const info =[
         {
@@ -78,18 +79,6 @@ const info =[
             title:"ZITADELA",
             text:"Oct, 2022",
             link:"/Zitadela"
-        },
-        {
-            img:"https://prismatic-blini-62ad83.netlify.app/13.jpeg",
-            title:"NUESTRAS OFICINAS",
-            text:"Sep, 2022",
-            link:"/Oficinas"
-        },
-        {
-            img:"https://prismatic-blini-62ad83.netlify.app/d.png",
-            title:"San Angel",
-            text:"Oct, 2023",
-            link:"/sanAngel"
         },
         {
             img:"https://prismatic-blini-62ad83.netlify.app/d.png",

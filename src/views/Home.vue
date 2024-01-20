@@ -7,10 +7,10 @@
   font_family="Montserrat"
   />
   <Slider
-  img1="https://prismatic-blini-62ad83.netlify.app/sanrender1.jpeg"
+  img1="https://prismatic-blini-62ad83.netlify.app/rafael-render-11.png"
   img2="https://prismatic-blini-62ad83.netlify.app/sa_1.jpg"
   img3="https://prismatic-blini-62ad83.netlify.app/rafael-render-12.jpeg  "
-  imgv1="https://prismatic-blini-62ad83.netlify.app/vilanova-2.jpeg"
+  imgv1="https://prismatic-blini-62ad83.netlify.app/rafael-render-11.png"
   imgv2="https://prismatic-blini-62ad83.netlify.app/casas%20portovela.jpg"
   imgv3="https://prismatic-blini-62ad83.netlify.app/casa-iva-3.jpg"
   texto1="¡Bienvenido!"
@@ -41,7 +41,16 @@
   bg_color="#f8f9fa"
   />
 
-<CardsSlider/>
+<CardsSlider
+  title="Proyectos"
+  text="Proyectos en los que Kuchen construcciones a participado en el sector de edificacion"
+/>
+
+<CardsSliderProyects
+  title="Desarollos"
+  text="Descubre todos nuestros proyectos excluisivos de Kuchen Construcciones en Bahia de banderas, donde veras descripciones, avances de obra y mucho mas"
+/>
+
 <ContactView
   ButtonColor="#0f71f2"
   ButtonHover="#0f99f2"
@@ -56,6 +65,7 @@ import MainWelcomeView from '../components/MainWelcomeView.vue';
 import WelcomeCards from '../components/WelcomeCards.vue';
 import CardsSlider from '../components/CardsSlider.vue';
 import ContactView from '../components/ContactView.vue';
+import CardsSliderProyects from '../components/CardsSliderProyects.vue';
 </script>
 
 <style scoped>

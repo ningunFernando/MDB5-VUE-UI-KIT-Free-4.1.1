@@ -12,11 +12,11 @@
       <MDBCollapse v-model="collapse5" id="navbarRightAlignExample">
         <MDBNavbarNav right class=" pb-lg-3 pt-lg-3 text-white">
           <!-- Right links -->
-          <MDBNavbarItem class="nav-items" to="/san_angel">
+          <MDBNavbarItem class="nav-items" to="/sanAngel">
            <div class="text-white"> Home</div>
           </MDBNavbarItem>
-          <MDBNavbarItem class="nav-items" href="#">
-            <div class="text-white"  >Link</div>
+          <MDBNavbarItem class="nav-items" to="/">
+            <div class="text-white"  >Kuchen  </div>
           </MDBNavbarItem>
           <!-- Right links -->
         </MDBNavbarNav>

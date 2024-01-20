@@ -19,35 +19,22 @@
             </div>
             <div class="apartment-info">
                 <div class="info-icons-container">
-                    <div class="info-container-card">
-                        <i :class="icon"></i>
-                        <p>{{icon_info}}</p>
+                    <div class="info-container-card d-flex flex-row">
+                        <i :class="icon2" class="p-4"></i>
+                        <div class="rect d-flex flex-column">
+                            <p>{{icon_title}}</p>
+                            <p >{{icon_info2}}</p>
+                        </div>
                     </div>
-                    <div class="info-container-card">
-                        <i :class="icon2"></i>
-                        <p>{{icon_info2}}</p>
-                    </div>
-                </div>
-                <div class="info-icons-container">
-                    <div class="info-container-card">
-                        <i :class="icon3"></i>
-                        <p>{{icon_info3}}</p>
-                    </div>
-                    <div class="info-container-card">
-                        <i :class="icon4"></i>
-                        <p>{{icon_info4}}</p>
+                    <div class="info-container-card d-flex flex-row ">
+                        <i :class="icon4" class="p-4"></i>
+                        <div class="rect d-flex flex-column">
+                            <p>{{icon_title2}}</p>
+                            <p>{{icon_info4}}</p>
+                        </div>
                     </div>
                 </div>
-                <div class="info-icons-container">
-                    <div class="info-container-card">
-                        <i :class="icon3"></i>
-                        <p>{{icon_info3}}</p>
-                    </div>
-                    <div class="info-container-card">
-                        <i :class="icon4"></i>
-                        <p>{{icon_info4}}</p>
-                    </div>
-                </div>  
+            
             </div>
 
         </div>
@@ -57,7 +44,7 @@
 
 <script setup lang="ts">
 
-const props = defineProps(['title', 'description', 'iframe', 'apartment_photo','icon','icon_info','icon2','icon_info2','icon3','icon_info3','icon4','icon_info4', 'color'])
+const props = defineProps(['title', 'description', 'iframe', 'apartment_photo','icon','icon_info','icon2','icon_info2','icon3','icon_info3','icon4','icon_info4', 'color', 'icon_title', 'icon_title2'])
 
 </script>
 
@@ -68,12 +55,19 @@ const props = defineProps(['title', 'description', 'iframe', 'apartment_photo','
     text-align: center;
 }
 
+.a{
+    text-align: justify;
+    width: 50dvw;
+}
+
 .map{
     display: flex;
     flex-direction: row;
     margin: 0 0 0 0;
 }
-
+.rect{
+    text-align: justify;
+}
 .map-content{
     background-color: v-bind(color);
     color:beige;
@@ -84,7 +78,7 @@ const props = defineProps(['title', 'description', 'iframe', 'apartment_photo','
 }
 
 .content-width{
-    width: 38dvw;
+    width: 40dvw;
     margin-left: 2rem;
     font-weight: 200;
 }
@@ -119,21 +113,21 @@ const props = defineProps(['title', 'description', 'iframe', 'apartment_photo','
     display: flex;
     flex-direction: row;
     margin-top: 3rem;
-    width: 30dvw;
-    gap: 6.5rem;
+    width: 33dvw;
+    gap: 3rem;
 }
 .info-icons-container i{
-font-size: 2rem;
+font-size: 3rem;
 }
 .info-container-card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50dvw;
+    width: 52dvw;
 }
 .apartment-container p{
-    width: 15dvw;
+    width: 16dvw;
 
 }
 
@@ -171,6 +165,11 @@ font-size: 2rem;
     .apartment-container p{
         width: 30dvw;
     
+    }
+
+    .info-icons-container{
+        display: flex;
+        flex-direction: column;
     }
 }
 

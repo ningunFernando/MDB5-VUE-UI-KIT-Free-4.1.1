@@ -15,7 +15,7 @@
       <MDBCollapse v-model="collapse5" id="navbarRightAlignExample">
         <MDBNavbarNav right class=" pb-lg-2 pt-lg-2 text-black">
           <!-- Right links -->
-          <MDBNavbarItem class="nav-items" to="/san_angel">
+          <MDBNavbarItem class="nav-items" to="/">
            <div class="text-black"> Home</div>
           </MDBNavbarItem>
           <MDBNavbarItem class="nav-items" href="#">
